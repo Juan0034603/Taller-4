@@ -1,0 +1,97 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin-top: 40px;
+}
+
+section {
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    margin-top: 60px;
+
+}
+
+.cuadro {
+    border: 2px solid black;
+    padding: 63px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+.button {
+    background-color: rgba(241,197,14,255);
+    width: 195px;
+    height: 60px;
+    font-size: 17px;
+    border: none;
+    margin-top: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+
+.h1Titulos {
+    font-size: 46px;
+    margin-top: 00px;
+    margin-bottom: 0px;
+}
+
+.h1Precio {
+    color: rgba(241,197,14,255);
+    font-size: 70px;
+    margin: 20px;
+
+}
+
+ul {
+    list-style: square;
+    /* Define el símbolo cuadrado */
+    padding-left: 20px;
+    /* Ajusta el espacio del ul */
+    text-align: center;
+    margin-left: 45px;
+    line-height: 1.9;
+
+}
+
+li {
+    color: black;
+    /* Color del texto */
+    font-size: 18px;
+    /* Tamaño del texto */
+    text-indent: -50px;
+    /* Reduce la distancia del símbolo al texto */
+    padding-left: 8px;
+    /* Ajusta el espacio */
+}
+
+li::marker {
+    color: rgba(241,197,14,255);
+    /* Cambia el color del símbolo */
+    font-size: 20px;
+    /* Ajusta el tamaño del símbolo */
+}
+
+#idCuadroVerde {
+    background-color:rgba(29,191,127,255);
+    padding: 63px;
+    margin-right: 0px;
+    margin-bottom: 20px;
+    margin-left: 0px;
+    padding-top: 45px;
+    padding-bottom: 40px;
+}
+
+span {
+    color: white;
+}
